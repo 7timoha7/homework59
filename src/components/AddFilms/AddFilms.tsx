@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {FilmsTape} from "../../types";
+import "./AddFilms.css"
 
 interface Props {
   onFormSubmit: (newFilm: FilmsTape) => void;
@@ -24,8 +25,8 @@ class AddFilms extends Component<Props> {
     return (
       <div>
         <form onSubmit={this.onFormSubmit}>
-          <input onChange={this.onchangeInput} type="text"/>
-          <button type="submit">ADD</button>
+          <input className="input-add" onChange={this.onchangeInput} type="text"/>
+          <button className="btn-add" type="submit">ADD</button>
         </form>
       </div>
     );
