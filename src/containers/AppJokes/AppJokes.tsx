@@ -36,7 +36,10 @@ const AppJokes = () => {
         return <JokeItem joke={item.value}
                          key={item.id}/>
       })}
-      <button onClick={fetchData}>New Joke</button>
+      <button
+        onClick={fetchData}
+      >New Joke
+      </button>
     </div>
   );
 };

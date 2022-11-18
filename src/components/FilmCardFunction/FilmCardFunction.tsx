@@ -27,4 +27,4 @@ const memo = (props: Props, nextProps: Props) => {
   return props.films === nextProps.films
 }
 
-export default React.memo(FilmCardFunction, memo);
+export default React.memo(FilmCardFunction, memo)

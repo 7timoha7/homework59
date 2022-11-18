@@ -20,8 +20,16 @@ const AddFilmsFunction: React.FC<Props> = (props) => {
   return (
     <div>
       <form onSubmit={onFormSubmit}>
-        <input className="input-add" value={films} onChange={onchangeInput} type="text"/>
-        <button className="btn-add" type="submit">ADD</button>
+        <input
+          className="input-add"
+          value={films}
+          onChange={onchangeInput}
+          type="text"/>
+        <button
+          className="btn-add"
+          type="submit"
+        >ADD
+        </button>
       </form>
     </div>
   );

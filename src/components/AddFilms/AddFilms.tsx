@@ -26,8 +26,16 @@ class AddFilms extends Component<Props> {
     return (
       <div>
         <form onSubmit={this.onFormSubmit}>
-          <input className="input-add" value={this.state.name} onChange={this.onchangeInput} type="text"/>
-          <button className="btn-add" type="submit">ADD</button>
+          <input
+            className="input-add"
+            value={this.state.name}
+            onChange={this.onchangeInput}
+            type="text"/>
+          <button
+            className="btn-add"
+            type="submit"
+          >ADD
+          </button>
         </form>
       </div>
     );

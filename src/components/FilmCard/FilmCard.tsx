@@ -5,7 +5,7 @@ import "./FilmsCard.css"
 interface Props {
   films: FilmsTape;
   onChange: (changeFilm: FilmsTape, value: string) => void;
-  onClick: (film:FilmsTape) => void;
+  onClick: (film: FilmsTape) => void;
 }
 
 class FilmCard extends Component <Props> {
@@ -22,8 +22,9 @@ class FilmCard extends Component <Props> {
                value={this.props.films.name}
                onChange={(e) => this.props.onChange(this.props.films, e.target.value)}
         />
-        <button onClick={() =>this.props.onClick(this.props.films)}
-                className="btn-delete">Delete</button>
+        <button onClick={() => this.props.onClick(this.props.films)}
+                className="btn-delete">Delete
+        </button>
       </div>
     );
   }
