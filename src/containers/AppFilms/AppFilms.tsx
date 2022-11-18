@@ -36,6 +36,7 @@ class AppFilms extends Component <{}, State> {
   render() {
     return (
       <div className="AppFilms">
+        <h2>App Films Class</h2>
         <AddFilms onFormSubmit={this.addFilm}/>
         <div className="films-cards">
           <h1>To watch list:</h1>

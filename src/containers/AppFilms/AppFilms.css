@@ -1,11 +1,13 @@
 .AppFilms {
     border: 5px solid black;
     padding: 20px;
+    margin-bottom: 20px;
+    background: #67b176;
 }
 
 .films-cards {
     margin-top: 20px;
-    border: 5px solid gray;
+    border: 5px solid #a96363;
     padding: 10px;
 }
 
